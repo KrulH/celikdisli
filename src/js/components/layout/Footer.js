@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
             <div class="col-lg-12">
               <br/>
               <br/>
-              <p>Copyright &copy; www.celikdisli.com.tr</p>
+              <p>Copyright &copy; www.celikdisli.com.tr Tel:  0 322 351 1025</p>
             </div>
           </div>
         </footer>

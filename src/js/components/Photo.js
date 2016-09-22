@@ -5,7 +5,7 @@ export default class Photo extends React.Component {
 
         return (
             <div class="col-md-4">
-                {this.props.urun.name}
+                <p class="title">{this.props.urun.name}</p>
                 <p>{this.props.urun.text}</p>
                 {this.props.urun.photo.map(
                     (photos,i) =>

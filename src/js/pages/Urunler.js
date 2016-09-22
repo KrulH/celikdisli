@@ -9,7 +9,7 @@ export default class Urunler extends React.Component {
       photo:["../js/images/fag-rulman.jpg",
         "../js/images/lineer-rulman.jpg"
       ],
-    text: "Sanayi, İğneli, Lineer ve Otomotiv rulman serileri"};
+      text: "Sanayi, İğneli, Lineer ve Otomotiv rulman serileri"};
     var urun1 ={name: "Hitachi Zincir",
       photo:["../js/images/hitachi.JPG","../js/images/hitachi2.JPG"],
       text: "Asa, Bs , Ziraai zincir grupları" };
@@ -28,16 +28,14 @@ export default class Urunler extends React.Component {
 
 
     return (
-      <div>
-
-        <div class="row"></div>
-        <Photo urun={urun} height="300" width="300"/>
-        <Photo urun={urun1} height="300" width="300"/>
-        <Photo urun={urun2} height="300" width="300"/>
-        <Photo urun={urun3} height="300" width="300"/>
-        <Photo urun={urun4} height="300" width="300"/>
-        <Photo urun={urun5} height="300" width="300"/>
-      </div>
+        <div>
+          <Photo urun={urun} height="300" width="300"/>
+          <Photo urun={urun1} height="300" width="300"/>
+          <Photo urun={urun2} height="300" width="300"/>
+          <Photo urun={urun3} height="300" width="300"/>
+          <Photo urun={urun4} height="300" width="300"/>
+          <Photo urun={urun5} height="300" width="300"/>
+        </div>
     );
   }
 }
