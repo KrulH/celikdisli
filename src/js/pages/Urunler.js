@@ -2,7 +2,7 @@ import React from "react";
 import Photo from "../components/Photo";
 
 
-export default class Archives extends React.Component {
+export default class Urunler extends React.Component {
   render() {
 
     var urun ={name: "Fag rulman",
@@ -27,7 +27,7 @@ export default class Archives extends React.Component {
 
     return (
       <div>
-        <h1>Archives</h1>
+        
         <div class="row"></div>
         <Photo urun={urun} height="300" width="300"/>
         <Photo urun={urun1} height="300" width="300"/>
