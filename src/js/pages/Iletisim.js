@@ -1,7 +1,7 @@
 import React from "react";
 import Photo from "../components/Photo";
 
-export default class Settings extends React.Component {
+export default class Iletisim extends React.Component {
 
 
   render() {
@@ -22,6 +22,7 @@ export default class Settings extends React.Component {
             Email:  info@celikdisli.com.tr<br/></h2>
           <br/>
           <Photo urun={urun} height="500" width="800"/>
+          <SimpleMap />
 
         </div>
     );
